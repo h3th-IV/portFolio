@@ -309,4 +309,7 @@ a {
   .home__picAndAbout h2 {
     font-size: 18px;
   }
+  .home__text {
+    margin: 0 auto;
+  }
 }

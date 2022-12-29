@@ -12,7 +12,7 @@ function Home() {
       <Header navValue={navValue} />
       <div className="home__picAndAbout">
         <img src={homeImg} alt="myPic" />
-        <div>
+        <div className="home__text">
           <h1>I'm Onifade Titilope Chisom</h1>
           <h2 className="typewiter-effect">
             <span>Intrests: </span>
