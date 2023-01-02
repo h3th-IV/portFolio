@@ -20,9 +20,12 @@ function Links() {
           <span className="linkLines"></span>
           <span className="linkLinesText">Github</span>
         </a>
-        <a className="bodyNavLink" href="mailto:titilopechisom20@gmail.com">
+        <a
+          className="bodyNavLink"
+          href="https://www.linkedin.com/in/titilope-chisom-onifade-7372681b2/"
+        >
           <span className="linkLines"></span>
-          <span className="linkLinesText">Gmail</span>
+          <span className="linkLinesText">LinkedIn</span>
         </a>
         <a
           className="bodyNavLink"
@@ -30,6 +33,10 @@ function Links() {
         >
           <span className="linkLines"></span>
           <span className="linkLinesText">Resume</span>
+        </a>
+        <a className="bodyNavLink" href="mailto:titilopechisom20@gmail.com">
+          <span className="linkLines"></span>
+          <span className="linkLinesText">Gmail</span>
         </a>
       </div>
       <Footer navValue={navValue} />
