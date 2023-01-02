@@ -28,6 +28,7 @@ function Projects() {
                   href="https://meta-bnb-ten.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
+                  id="project__website"
                 >
                   Website
                 </a>
@@ -54,6 +55,7 @@ function Projects() {
                   href="https://amazon-clone-ebon-six.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
+                  id="project__website"
                 >
                   Website
                 </a>
@@ -79,7 +81,12 @@ function Projects() {
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
-                <a href="https://coverly.app" target="_blank" rel="noreferrer">
+                <a
+                  href="https://coverly.app"
+                  target="_blank"
+                  id="project__website"
+                  rel="noreferrer"
+                >
                   Website
                 </a>
 

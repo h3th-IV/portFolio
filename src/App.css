@@ -238,11 +238,15 @@ a {
   justify-content: space-between;
 }
 .projects__buttons a {
-  background-color: rgba(38, 38, 38, 0.2);
+  background-color: rgba(38, 38, 38, 0.973);
   color: rgba(82, 82, 82, 1);
+
   width: 48%;
   padding: 10px;
   text-align: center;
+}
+#project__website {
+  background-color: white;
 }
 
 .Links {

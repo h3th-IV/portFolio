@@ -2,7 +2,7 @@ import Header from "./Header";
 import HomeBodyLink from "./HomeBodyLink";
 import useNav from "./useNav";
 import Typewriter from "typewriter-effect";
-import homeImg from "./img/Snapchat-1637416023-removebg-preview.png";
+import homeImg from "./img/istockphoto-1284693553-612x612.jpg";
 
 function Home() {
   const { navValue } = useNav(false);
@@ -13,10 +13,10 @@ function Home() {
       <div className="home__picAndAbout">
         <img src={homeImg} alt="myPic" />
         <div className="home__text">
-          <h1>I'm Onifade Titilope Chisom</h1>
+          <h1>Hello👋, I'm Onifade Titilope Chisom</h1>
           <h2 className="typewiter-effect">
             {/* <div> */}
-            <span>Intrests: </span>
+            <span>Interests: </span>
             <Typewriter
               options={{
                 autoStart: true,
@@ -55,7 +55,7 @@ function Home() {
             className="home__contactMe"
             href="mailto:titilopechisom20@gmail.com"
           >
-            Contact Me 👋
+            Contact Me
           </a>
           <div className="home__contactText">
             &#169; {new Date().getFullYear()} codingAmbivert.
