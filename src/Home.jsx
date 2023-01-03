@@ -15,7 +15,6 @@ function Home() {
         <div className="home__text">
           <h1>Hello👋, I'm Onifade Titilope Chisom</h1>
           <h2 className="typewiter-effect">
-            {/* <div> */}
             <span>Interests: </span>
             <Typewriter
               options={{
@@ -30,7 +29,6 @@ function Home() {
                 ],
               }}
             />
-            {/* </div> */}
           </h2>
         </div>
       </div>

@@ -2,6 +2,9 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import useNav from "./useNav";
+import coverlyImg from "./img/coverly.png";
+import metaBnbimg from "./img/meta-bnb.png";
+import amazonCloneImg from "./img/amazon-clone.png";
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -21,6 +24,7 @@ function Projects() {
                 A responsive website where you can rent aparts on the metaverse
               </p>
             </div>
+            <img src={metaBnbimg} alt="metaBnbImage" />
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
@@ -48,6 +52,7 @@ function Projects() {
               <h1>Amazon-Clone</h1>
               <p>A Clone of Amazon website</p>
             </div>
+            <img src={amazonCloneImg} alt="amazonCloneImage" />
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
@@ -78,6 +83,7 @@ function Projects() {
                 infromation a user gives
               </p>
             </div>
+            <img src={coverlyImg} alt="coverlyImage" />
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">

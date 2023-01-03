@@ -212,7 +212,7 @@ a {
 .projects__cardWrapper {
   background-color: rgba(23, 23, 23, 0.4);
   padding: 20px;
-  height: 350px;
+  min-height: 350px;
   width: 380px;
   display: flex;
   flex-direction: column;
@@ -222,6 +222,9 @@ a {
 .projects__cardWrapper p {
   color: #a5a5a5;
   font-size: small;
+}
+.projects__cardWrapper img {
+  margin: 15px 0;
 }
 .projects__active {
   color: #22c55e;
@@ -292,7 +295,6 @@ a {
   }
 
   .projects__cardWrapper {
-    height: 350px;
     width: 330px;
     margin-left: auto;
     margin-right: auto;
@@ -315,18 +317,22 @@ a {
   }
   .home__picAndAbout h2 {
     font-size: 18px;
-    text-align: center;
   }
   .home__text {
     margin: 0 auto !important;
     text-align: center;
+  }
+  .home__text .typewiter-effect {
+    /* display: flex; */
+    justify-content: center;
+  }
+  .home__text h1 {
+    margin: 20px 0;
   }
 }
 
 @media screen and (max-width: 350px) {
   .home__picAndAbout h2 {
     font-size: 16px;
-
-    margin-left: 20px;
   }
 }
