@@ -225,6 +225,7 @@ a {
 }
 .projects__cardWrapper img {
   margin: 15px 0;
+  width: 100%;
 }
 .projects__active {
   color: #22c55e;

@@ -24,7 +24,14 @@ function Projects() {
                 A responsive website where you can rent aparts on the metaverse
               </p>
             </div>
-            <img src={metaBnbimg} alt="metaBnbImage" />
+
+            <a
+              href="https://meta-bnb-ten.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={metaBnbimg} alt="metaBnbImage" />
+            </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
@@ -52,7 +59,13 @@ function Projects() {
               <h1>Amazon-Clone</h1>
               <p>A Clone of Amazon website</p>
             </div>
-            <img src={amazonCloneImg} alt="amazonCloneImage" />
+            <a
+              href="https://amazon-clone-ebon-six.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={amazonCloneImg} alt="amazonCloneImage" />
+            </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
@@ -83,15 +96,17 @@ function Projects() {
                 infromation a user gives
               </p>
             </div>
-            <img src={coverlyImg} alt="coverlyImage" />
+            <a href="https://coverly.app" target="_blank" rel="noreferrer">
+              <img src={coverlyImg} alt="coverlyImage" />
+            </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
                 <a
                   href="https://coverly.app"
                   target="_blank"
-                  id="project__website"
                   rel="noreferrer"
+                  id="project__website"
                 >
                   Website
                 </a>
