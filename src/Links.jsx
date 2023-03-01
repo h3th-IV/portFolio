@@ -12,11 +12,11 @@ function Links() {
         <h1 className="Links__header">Links</h1>
 
         <p>You can reach me using any of the following links.</p>
-        <a className="bodyNavLink" href="https://twitter.com/codingAmbivert">
+        <a className="bodyNavLink" href="https://twitter.com/codeAmbivert">
           <span className="linkLines"></span>
           <span className="linkLinesText">Twitter</span>
         </a>
-        <a className="bodyNavLink" href="https://github.com/codingAmbivert">
+        <a className="bodyNavLink" href="https://github.com/codeAmbivert">
           <span className="linkLines"></span>
           <span className="linkLinesText">Github</span>
         </a>
