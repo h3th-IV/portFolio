@@ -43,9 +43,10 @@ function About() {
         <li>Tailwind</li>
         <li>JavaScript</li>
         <li>React js</li>
+        <li>Next js</li>
         <li>Git</li>
       </ul>
-      <Footer navValue={navValue} />  
+      <Footer navValue={navValue} />
     </div>
   );
 }

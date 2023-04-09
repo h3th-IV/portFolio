@@ -5,6 +5,7 @@ import useNav from "./useNav";
 import coverlyImg from "./img/coverly.png";
 import metaBnbimg from "./img/meta-bnb.png";
 import amazonCloneImg from "./img/amazon-clone.png";
+import openaiChatImg from "./img/openai chat.png";
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -80,6 +81,73 @@ function Projects() {
 
                 <a
                   href="https://github.com/codingAmbivert/amazon-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Coverly</h1>
+              <p>
+                A website that uses AI to generate a cover letter using the
+                infromation a user gives
+              </p>
+            </div>
+            <a href="https://coverly.app" target="_blank" rel="noreferrer">
+              <img src={coverlyImg} alt="coverlyImage" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://coverly.app"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codingAmbivert/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Open-ai chat</h1>
+              <p>A chatbot created using openai's API</p>
+            </div>
+            <a
+              href="https://openaichatbot.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={openaiChatImg} alt="openaiChatImage" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://openaichatbot.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codeAmbivert/openai-chat"
                   target="_blank"
                   rel="noreferrer"
                 >
