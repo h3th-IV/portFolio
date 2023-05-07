@@ -5,7 +5,7 @@ import useNav from "./useNav";
 import coverlyImg from "./img/coverly.png";
 import metaBnbimg from "./img/meta-bnb.png";
 import amazonCloneImg from "./img/amazon-clone.png";
-import openaiChatImg from "./img/openai chat.png";
+import openaiAsk from "./img/openai-ask.png";
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -114,6 +114,38 @@ function Projects() {
 
                 <a
                   href="https://github.com/codingAmbivert/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Openai-ask</h1>
+              <p>
+                A website that uses openAI's API to answer any question.
+              </p>
+            </div>
+            <a href="https://openai-ask.vercel.app/" target="_blank" rel="noreferrer">
+              <img src={openaiAsk} alt="openAI-ask cover image" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://openai-ask.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codeAmbivert/openaiask"
                   target="_blank"
                   rel="noreferrer"
                 >
