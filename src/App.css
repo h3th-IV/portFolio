@@ -200,6 +200,7 @@ a {
 .projects__container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .projects__container h1 {
   font-weight: 700;
