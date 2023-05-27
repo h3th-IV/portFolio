@@ -6,6 +6,7 @@ import coverlyImg from "./img/coverly.png";
 import metaBnbimg from "./img/meta-bnb.png";
 import amazonCloneImg from "./img/amazon-clone.png";
 import openaiAsk from "./img/openai-ask.png";
+import smapp from "./img/sm-app.png"
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -146,6 +147,38 @@ function Projects() {
 
                 <a
                   href="https://github.com/codeAmbivert/openaiask"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Social media app</h1>
+              <p>
+                A website that uses openAI's API to answer any question.
+              </p>
+            </div>
+            <a href="https://smedia.vercel.app/" target="_blank" rel="noreferrer">
+              <img src={smapp} alt="social media app image" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://smedia.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codeAmbivert/"
                   target="_blank"
                   rel="noreferrer"
                 >
