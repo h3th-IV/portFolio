@@ -200,6 +200,7 @@ a {
 .projects__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 .projects__container h1 {
@@ -294,6 +295,7 @@ a {
   .projects__container {
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
   }
 
   .projects__cardWrapper {
