@@ -6,7 +6,7 @@ import coverlyImg from "./img/coverly.png";
 import metaBnbimg from "./img/meta-bnb.png";
 import amazonCloneImg from "./img/amazon-clone.png";
 import openaiAsk from "./img/openai-ask.png";
-import smapp from "./img/sm-app.png"
+import smapp from "./img/sm-app.png";
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -22,9 +22,7 @@ function Projects() {
           <div className="projects__cardWrapper">
             <div>
               <h1>Metabnb</h1>
-              <p>
-                A responsive website where you can rent aparts on the metaverse
-              </p>
+              <p>A website where you can rent aparts on the metaverse</p>
             </div>
 
             <a
@@ -93,10 +91,7 @@ function Projects() {
           <div className="projects__cardWrapper">
             <div>
               <h1>Coverly</h1>
-              <p>
-                A website that uses AI to generate a cover letter using the
-                infromation a user gives
-              </p>
+              <p>A web app that help users generate cover letters using AI</p>
             </div>
             <a href="https://coverly.app" target="_blank" rel="noreferrer">
               <img src={coverlyImg} alt="coverlyImage" />
@@ -126,11 +121,13 @@ function Projects() {
           <div className="projects__cardWrapper">
             <div>
               <h1>Openai-ask</h1>
-              <p>
-                A website that uses openAI's API to answer any question.
-              </p>
+              <p>A website that uses openAI's API to answer any question.</p>
             </div>
-            <a href="https://openai-ask.vercel.app/" target="_blank" rel="noreferrer">
+            <a
+              href="https://openai-ask.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={openaiAsk} alt="openAI-ask cover image" />
             </a>
             <div>
@@ -158,11 +155,13 @@ function Projects() {
           <div className="projects__cardWrapper">
             <div>
               <h1>Social media app</h1>
-              <p>
-                A website that uses openAI's API to answer any question.
-              </p>
+              <p>A social app where users can meet and communicate</p>
             </div>
-            <a href="https://smedia.vercel.app/" target="_blank" rel="noreferrer">
+            <a
+              href="https://smedia.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={smapp} alt="social media app image" />
             </a>
             <div>
@@ -189,7 +188,6 @@ function Projects() {
           </div>
         </div>
       </div>
-
       <Footer navValue={navValue} />
     </div>
   );

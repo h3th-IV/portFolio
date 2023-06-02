@@ -199,12 +199,13 @@ a {
 }
 .projects__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.projects__container h1 {
-  font-weight: 700;
-}
+/* .projects__container h1 {
+  font-size: 25px;
+} */
 .Projects .contribution {
   margin: 20px 0;
   color: #a5a5a5;
@@ -213,12 +214,12 @@ a {
 .projects__cardWrapper {
   background-color: rgba(23, 23, 23, 0.4);
   padding: 20px;
-  min-height: 350px;
   width: 380px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 5px;
+  margin: 10px;
 }
 .projects__cardWrapper p {
   color: #a5a5a5;
@@ -295,6 +296,9 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+  }
+  .projects__container img {
+    width: 100%;
   }
 
   .projects__cardWrapper {

@@ -2,7 +2,7 @@ import Header from "./Header";
 import HomeBodyLink from "./HomeBodyLink";
 import useNav from "./useNav";
 import Typewriter from "typewriter-effect";
-import homeImg from "./img/istockphoto-1284693553-612x612.jpg";
+import homeImg from "./img/programmer.svg";
 
 function Home() {
   const { navValue } = useNav(false);
