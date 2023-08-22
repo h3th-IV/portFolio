@@ -128,7 +128,7 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={openaiAsk} alt="openAI-ask cover image" />
+              <img src={openaiAsk} alt="openAI-ask cover img" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
@@ -155,14 +155,14 @@ function Projects() {
           <div className="projects__cardWrapper">
             <div>
               <h1>Social media app</h1>
-              <p>A social app where users can meet and communicate</p>
+              <p>A social app where users can meet and communicate. *STILL UNDER DEVELOPMENT BUT FUNCTIONAL*</p>
             </div>
             <a
               href="https://smedia.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={smapp} alt="social media app image" />
+              <img src={smapp} alt="social media app img" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>

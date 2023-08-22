@@ -56,7 +56,7 @@ function Home() {
             Contact Me
           </a>
           <div className="home__contactText">
-            &#169; {new Date().getFullYear()} codingAmbivert.
+            &#169; {new Date().getFullYear()} codeAmbivert.
           </div>
         </div>
       </div>
