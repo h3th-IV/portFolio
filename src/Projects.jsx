@@ -4,9 +4,9 @@ import Header from "./Header";
 import useNav from "./useNav";
 import coverlyImg from "./img/coverly.png";
 import metaBnbimg from "./img/meta-bnb.png";
-import amazonCloneImg from "./img/amazon-clone.png";
-import openaiAsk from "./img/openai-ask.png";
 import smapp from "./img/sm-app.png";
+import blackTrustImg from "./img/blacktrust.png";
+import swiftwingsImg from "./img/swiftwings.png";
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -45,7 +45,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codingAmbivert/meta-bnb"
+                  href="https://github.com/codeAmbivert/meta-bnb"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -56,21 +56,17 @@ function Projects() {
           </div>
           <div className="projects__cardWrapper">
             <div>
-              <h1>Amazon-Clone</h1>
-              <p>A Clone of Amazon website</p>
+              <h1>BlackTrust</h1>
+              <p>Trustworthy information about products and services.</p>
             </div>
-            <a
-              href="https://amazon-clone-ebon-six.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={amazonCloneImg} alt="amazonCloneImage" />
+            <a href="https://blacktrust.co" target="_blank" rel="noreferrer">
+              <img src={blackTrustImg} alt="amazonCloneImage" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
                 <a
-                  href="https://amazon-clone-ebon-six.vercel.app/"
+                  href="https://blacktrust.co"
                   target="_blank"
                   rel="noreferrer"
                   id="project__website"
@@ -79,7 +75,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codingAmbivert/amazon-clone"
+                  href="https://github.com/codeAmbivert/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -109,7 +105,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codingAmbivert/"
+                  href="https://github.com/codeAmbivert/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -120,21 +116,21 @@ function Projects() {
           </div>
           <div className="projects__cardWrapper">
             <div>
-              <h1>Openai-ask</h1>
-              <p>A website that uses openAI's API to answer any question.</p>
+              <h1>Swiftwingsjet</h1>
+              <p>A website for private jets hire.</p>
             </div>
             <a
-              href="https://openai-ask.vercel.app/"
+              href="https://swiftwingsjet.com/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={openaiAsk} alt="openAI-ask cover img" />
+              <img src={swiftwingsImg} alt="openAI-ask cover img" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
                 <a
-                  href="https://openai-ask.vercel.app/"
+                  href="https://swiftwingsjet.com/"
                   target="_blank"
                   rel="noreferrer"
                   id="project__website"
@@ -143,7 +139,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/openaiask"
+                  href="https://github.com/codeAmbivert/"
                   target="_blank"
                   rel="noreferrer"
                 >
