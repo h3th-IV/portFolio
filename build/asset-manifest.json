@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6c84e0f.css",
-    "main.js": "/static/js/main.871f6cba.js",
+    "main.css": "/static/css/main.97254f65.css",
+    "main.js": "/static/js/main.cc6c4989.js",
+    "static/media/swiftwings.png": "/static/media/swiftwings.3c16bb997de4081e15a8.png",
+    "static/media/blacktrust.png": "/static/media/blacktrust.e54a5c4a4c16fd2bc07e.png",
     "static/media/sm-app.png": "/static/media/sm-app.5ebf27a9049d2c77eec0.png",
-    "static/media/openai-ask.png": "/static/media/openai-ask.aa92bef8e1305632a0b0.png",
-    "static/media/amazon-clone.png": "/static/media/amazon-clone.ea7be3798e78a63c50bc.png",
     "static/media/meta-bnb.png": "/static/media/meta-bnb.f1fb60647109f00ce87f.png",
     "static/media/coverly.png": "/static/media/coverly.02f4273976e06636e8d6.png",
     "static/media/programmer.svg": "/static/media/programmer.54b3a8dfff8239bab5659791ebf2b5bc.svg",
     "index.html": "/index.html",
-    "main.d6c84e0f.css.map": "/static/css/main.d6c84e0f.css.map",
-    "main.871f6cba.js.map": "/static/js/main.871f6cba.js.map"
+    "main.97254f65.css.map": "/static/css/main.97254f65.css.map",
+    "main.cc6c4989.js.map": "/static/js/main.cc6c4989.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c84e0f.css",
-    "static/js/main.871f6cba.js"
+    "static/css/main.97254f65.css",
+    "static/js/main.cc6c4989.js"
   ]
 }
