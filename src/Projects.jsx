@@ -151,7 +151,7 @@ function Projects() {
           <div className="projects__cardWrapper">
             <div>
               <h1>Social media app</h1>
-              <p>A social app where users can meet and communicate...</p>
+              <p>A social app where users can meet and communicate....</p>
             </div>
             <a
               href="https://smedia.vercel.app/"
