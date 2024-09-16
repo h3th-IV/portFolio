@@ -21,22 +21,21 @@ function Projects() {
         <div className="projects__container">
           <div className="projects__cardWrapper">
             <div>
-              <h1>Metabnb</h1>
-              <p>A website where you can rent aparts on the metaverse</p>
+              <h1>Swiftwingsjet</h1>
+              <p>A website for private jets hire.</p>
             </div>
-
             <a
-              href="https://meta-bnb-ten.vercel.app/"
+              href="https://swiftwingsjet.com/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={metaBnbimg} alt="metaBnbImage" />
+              <img src={swiftwingsImg} alt="openAI-ask cover img" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
                 <a
-                  href="https://meta-bnb-ten.vercel.app/"
+                  href="https://swiftwingsjet.com/"
                   target="_blank"
                   rel="noreferrer"
                   id="project__website"
@@ -45,7 +44,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/meta-bnb"
+                  href="https://github.com/codeAmbivert/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -84,71 +83,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className="projects__cardWrapper">
-            <div>
-              <h1>Coverly</h1>
-              <p>A web app that help users generate cover letters using AI</p>
-            </div>
-            <a href="https://coverly.app" target="_blank" rel="noreferrer">
-              <img src={coverlyImg} alt="coverlyImage" />
-            </a>
-            <div>
-              <div className="projects__active">ACTIVE</div>
-              <div className="projects__buttons">
-                <a
-                  href="https://coverly.app"
-                  target="_blank"
-                  rel="noreferrer"
-                  id="project__website"
-                >
-                  Website
-                </a>
-
-                <a
-                  href="https://github.com/codeAmbivert/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="projects__cardWrapper">
-            <div>
-              <h1>Swiftwingsjet</h1>
-              <p>A website for private jets hire.</p>
-            </div>
-            <a
-              href="https://swiftwingsjet.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={swiftwingsImg} alt="openAI-ask cover img" />
-            </a>
-            <div>
-              <div className="projects__active">ACTIVE</div>
-              <div className="projects__buttons">
-                <a
-                  href="https://swiftwingsjet.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  id="project__website"
-                >
-                  Website
-                </a>
-
-                <a
-                  href="https://github.com/codeAmbivert/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="projects__cardWrapper">
+                    <div className="projects__cardWrapper">
             <div>
               <h1>Social media app</h1>
               <p>A social app where users can meet and communicate....</p>
@@ -165,6 +100,71 @@ function Projects() {
               <div className="projects__buttons">
                 <a
                   href="https://smedia.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codeAmbivert/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Metabnb</h1>
+              <p>A website where you can rent aparts on the metaverse</p>
+            </div>
+
+            <a
+              href="https://meta-bnb-ten.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={metaBnbimg} alt="metaBnbImage" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://meta-bnb-ten.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codeAmbivert/meta-bnb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Coverly</h1>
+              <p>A web app that help users generate cover letters using AI</p>
+            </div>
+            <a href="https://coverly.app" target="_blank" rel="noreferrer">
+              <img src={coverlyImg} alt="coverlyImage" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://coverly.app"
                   target="_blank"
                   rel="noreferrer"
                   id="project__website"
