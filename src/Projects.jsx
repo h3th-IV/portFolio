@@ -3,10 +3,10 @@ import Footer from "./Footer";
 import Header from "./Header";
 import useNav from "./useNav";
 import coverlyImg from "./img/coverly.png";
-import metaBnbimg from "./img/meta-bnb.png";
 import smapp from "./img/sm-app.png";
 import blackTrustImg from "./img/blacktrust.png";
 import swiftwingsImg from "./img/swiftwings.png";
+import juwsheyajImg from "./img/juwsheyaj.png";
 
 function Projects() {
   const { navValue } = useNav(true);
@@ -55,11 +55,46 @@ function Projects() {
           </div>
           <div className="projects__cardWrapper">
             <div>
+              <h1>Juwsheyaj Residence</h1>
+              <p>A modern hotel website designed for booking rooms</p>
+            </div>
+
+            <a
+              href="https://www.juwsheyaj.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={juwsheyajImg} alt="juwsheyaj" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="https://www.juwsheyaj.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/codeAmbivert/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="projects__cardWrapper">
+            <div>
               <h1>BlackTrust</h1>
               <p>Trustworthy information about products and services.</p>
             </div>
             <a href="https://blacktrust.co" target="_blank" rel="noreferrer">
-              <img src={blackTrustImg} alt="amazonCloneImage" />
+              <img src={blackTrustImg} alt="blackTrust" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
@@ -83,7 +118,7 @@ function Projects() {
               </div>
             </div>
           </div>
-                    <div className="projects__cardWrapper">
+          <div className="projects__cardWrapper">
             <div>
               <h1>Social media app</h1>
               <p>A social app where users can meet and communicate....</p>
@@ -109,41 +144,6 @@ function Projects() {
 
                 <a
                   href="https://github.com/codeAmbivert/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="projects__cardWrapper">
-            <div>
-              <h1>Metabnb</h1>
-              <p>A website where you can rent aparts on the metaverse</p>
-            </div>
-
-            <a
-              href="https://meta-bnb-ten.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={metaBnbimg} alt="metaBnbImage" />
-            </a>
-            <div>
-              <div className="projects__active">ACTIVE</div>
-              <div className="projects__buttons">
-                <a
-                  href="https://meta-bnb-ten.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  id="project__website"
-                >
-                  Website
-                </a>
-
-                <a
-                  href="https://github.com/codeAmbivert/meta-bnb"
                   target="_blank"
                   rel="noreferrer"
                 >
