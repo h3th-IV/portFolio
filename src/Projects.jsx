@@ -59,14 +59,14 @@ function Projects() {
               <h1>Cutt.live</h1>
               <p>A URL shortener with QR Codes for users</p>
             </div>
-            <a href="cutt.live" target="_blank" rel="noreferrer">
+            <a href="https://cutt.live" target="_blank" rel="noreferrer">
               <img src={cuttLive} alt="blackTrust" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
                 <a
-                  href="cutt.live"
+                  href="https://cutt.live"
                   target="_blank"
                   rel="noreferrer"
                   id="project__website"
