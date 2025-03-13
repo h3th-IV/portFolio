@@ -38,7 +38,7 @@ function Links() {
         </a>
         <a
           className="bodyNavLink"
-          href="https://drive.google.com/file/d/1iF7JPhqJ6-pVKVbJpm32wGYCbH7GJnb-/view?usp=sharing"
+          href="https://drive.google.com/file/d/109GMQW6yNiwo6abkhgwKCJz-5KLQxtJM/view?usp=sharing"
           target="_blank"
         >
           <span className="linkLines"></span>
