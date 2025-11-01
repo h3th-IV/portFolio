@@ -14,7 +14,7 @@ function Links() {
         <p>You can reach me using any of the following links.</p>
         <a
           className="bodyNavLink"
-          href="https://twitter.com/codeAmbivert"
+          href="https://twitter.com/heth-iv"
           target="_blank"
         >
           <span className="linkLines"></span>
@@ -22,7 +22,7 @@ function Links() {
         </a>
         <a
           className="bodyNavLink"
-          href="https://github.com/codeAmbivert"
+          href="https://github.com/heth-iv"
           target="_blank"
         >
           <span className="linkLines"></span>

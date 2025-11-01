@@ -6,7 +6,7 @@ function Header(props) {
     <div className="Header">
       {!props.navValue && (
         <nav>
-          <h1 className="logo">codeAmbivert</h1>
+          <h1 className="logo">heth-iv</h1>
         </nav>
       )}
       <div className="stack_cont">
@@ -16,7 +16,7 @@ function Header(props) {
           </Link>
         )}
         {!props.navValue && (
-          <div className="stack">frontend&nbsp; developer</div>
+          <div className="stack">backend&nbsp; developer</div>
         )}
       </div>
     </div>

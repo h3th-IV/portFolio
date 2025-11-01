@@ -13,7 +13,7 @@ function Home() {
       <div className="home__picAndAbout">
         <img src={homeImg} alt="myPic" />
         <div className="home__text">
-          <h1>Hello👋, I'm Onifade Titilope Chisom</h1>
+          <h1>Hello👋, I'm Bonu Samuel Busayo</h1>
           <h2 className="typewiter-effect">
             <span>Interests: </span>
             <Typewriter
@@ -51,12 +51,12 @@ function Home() {
         <div className="home__contactWrapper">
           <a
             className="home__contactMe"
-            href="mailto:titilopechisom20@gmail.com"
+            href="mailto:samuelbonux10@gmail.com"
           >
             Contact Me
           </a>
           <div className="home__contactText">
-            &#169; {new Date().getFullYear()} codeAmbivert.
+            &#169; {new Date().getFullYear()} heth-iv.
           </div>
         </div>
       </div>

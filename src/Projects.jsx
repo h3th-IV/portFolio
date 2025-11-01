@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import useNav from "./useNav";
@@ -11,6 +11,18 @@ import cuttLive from "./img/cutt-live.png";
 
 function Projects() {
   const { navValue } = useNav(true);
+  const [projectUrls, setProjectUrls] = useState({
+    url1: "",
+    url2: "",
+    url3: "",
+  });
+
+  const handleUrlChange = (field, value) => {
+    setProjectUrls((prev) => ({
+      ...prev,
+      [field]: value,
+    }));
+  };
   return (
     <div className="Projects">
       <Header navValue={navValue} />
@@ -20,6 +32,40 @@ function Projects() {
           These are projects I've worked on or contributed to.
         </p>
         <div className="projects__container">
+          <div className="projects__cardWrapper">
+            <div>
+              <h1>Capitalwise Dynamic Pay</h1>
+              <p>A comprehensive finance and loan management system with intelligent loan product matching based on credit checks. Full customer and staff-side applications.</p>
+            </div>
+            <a
+              href="http://www.preview.capitalwisepayment.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={blackTrustImg} alt="Capitalwise Dynamic Pay" />
+            </a>
+            <div>
+              <div className="projects__active">ACTIVE</div>
+              <div className="projects__buttons">
+                <a
+                  href="http://www.preview.capitalwisepayment.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  id="project__website"
+                >
+                  Website
+                </a>
+
+                <a
+                  href="https://github.com/h3th-iv/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="projects__cardWrapper">
             <div>
               <h1>Swiftwingsjet</h1>
@@ -45,7 +91,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/"
+                  href="https://github.com/h3th-iv/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -56,26 +102,26 @@ function Projects() {
           </div>
           <div className="projects__cardWrapper">
             <div>
-              <h1>Cutt.live</h1>
-              <p>A URL shortener with QR Codes for users</p>
+              <h1>Invoicer Demo App</h1>
+              <p>A comprehensive invoicing system with AI-powered insights, built with Node.js, React, MongoDB, and OpenAI integration. Features invoice management, client tracking, inventory control, and intelligent business analytics.</p>
             </div>
-            <a href="https://cutt.live" target="_blank" rel="noreferrer">
-              <img src={cuttLive} alt="blackTrust" />
+            <a href="https://github.com/h3th-IV/invoicer-demo_app" target="_blank" rel="noreferrer">
+              <img src={cuttLive} alt="Invoicer Demo App" />
             </a>
             <div>
               <div className="projects__active">ACTIVE</div>
               <div className="projects__buttons">
                 <a
-                  href="https://cutt.live"
+                  href="https://github.com/h3th-IV/invoicer-demo_app"
                   target="_blank"
                   rel="noreferrer"
                   id="project__website"
                 >
-                  Website
+                  Repository
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/scissor"
+                  href="https://github.com/h3th-IV/invoicer-demo_app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -110,7 +156,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/"
+                  href="https://github.com/h3th-iv/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -145,7 +191,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/social-media-app"
+                  href="https://github.com/h3th-iv/social-media-app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -175,7 +221,7 @@ function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/codeAmbivert/"
+                  href="https://github.com/heth-iv/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -184,6 +230,48 @@ function Projects() {
               </div>
             </div>
           </div> */}
+        </div>
+        
+        <div className="projects__urlsSection">
+          <h2 className="projects__urlsHeader">Notable Project URLs</h2>
+          <p className="projects__urlsDescription">
+            Add URLs for your notable backend projects:
+          </p>
+          <div className="projects__urlsContainer">
+            <div className="projects__urlInputWrapper">
+              <label htmlFor="project-url-1">Project URL 1:</label>
+              <input
+                type="url"
+                id="project-url-1"
+                className="projects__urlInput"
+                placeholder="https://example.com"
+                value={projectUrls.url1}
+                onChange={(e) => handleUrlChange("url1", e.target.value)}
+              />
+            </div>
+            <div className="projects__urlInputWrapper">
+              <label htmlFor="project-url-2">Project URL 2:</label>
+              <input
+                type="url"
+                id="project-url-2"
+                className="projects__urlInput"
+                placeholder="https://example.com"
+                value={projectUrls.url2}
+                onChange={(e) => handleUrlChange("url2", e.target.value)}
+              />
+            </div>
+            <div className="projects__urlInputWrapper">
+              <label htmlFor="project-url-3">Project URL 3:</label>
+              <input
+                type="url"
+                id="project-url-3"
+                className="projects__urlInput"
+                placeholder="https://example.com"
+                value={projectUrls.url3}
+                onChange={(e) => handleUrlChange("url3", e.target.value)}
+              />
+            </div>
+          </div>
         </div>
       </div>
       <Footer navValue={navValue} />

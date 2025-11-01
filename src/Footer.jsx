@@ -5,7 +5,7 @@ function Footer(props) {
     <div>
       {props.navValue && (
         <div className="Footer">
-          &#169; {new Date().getFullYear()} codeAmbivert.
+          &#169; {new Date().getFullYear()} heth-iv.
         </div>
       )}
     </div>
