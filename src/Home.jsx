@@ -22,10 +22,12 @@ function Home() {
                 loop: true,
                 delay: 40,
                 strings: [
-                  "Programming",
+                  "Backend Engineering",
+                  "Linux Systems",
+                  "Cybersecurity",
+                  "DevOps",
                   "Reading",
                   "Music",
-                  "Cosmic phenomena",
                 ],
               }}
             />
@@ -40,7 +42,7 @@ function Home() {
             <span className="linkLines"></span>
             <a
               className="linkLinesText"
-              href="https://codingambivert.hashnode.dev/"
+              // href="https://codingambivert.hashnode.dev/"
             >
               Blog
             </a>

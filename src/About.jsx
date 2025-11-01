@@ -42,6 +42,14 @@ function About() {
         technologies, which helps me better understand full-stack application architecture 
         and collaborate effectively with frontend teams to deliver seamless user experiences.
       </p>
+      <p>
+        Beyond backend engineering, I'm a passionate Linux enthusiast with extensive hands-on 
+        experience using Linux as my primary development environment. My DevOps expertise includes 
+        containerization with Docker and Kubernetes, infrastructure as code with Terraform and 
+        Ansible, and automated CI/CD pipelines that streamline deployment workflows. I also have 
+        experience in cybersecurity and penetration testing, which informs my approach to building 
+        secure, resilient systems from the ground up.
+      </p>
 
       <h1>Languages & tools</h1>
       <p>
@@ -63,6 +71,8 @@ function About() {
         <li>CI/CD (Jenkins, CircleCI, GitHub Actions)</li>
         <li>Kafka</li>
         <li>REST, GraphQL, WebSockets</li>
+        <li>Linux Systems Administration</li>
+        <li>Cybersecurity & Penetration Testing</li>
         <li>Git & GitHub</li>
       </ul>
       <Footer navValue={navValue} />
