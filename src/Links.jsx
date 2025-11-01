@@ -14,7 +14,7 @@ function Links() {
         <p>You can reach me using any of the following links.</p>
         <a
           className="bodyNavLink"
-          href="https://twitter.com/heth-iv"
+          href="https://x.com/h3rcury"
           target="_blank"
         >
           <span className="linkLines"></span>
@@ -22,7 +22,7 @@ function Links() {
         </a>
         <a
           className="bodyNavLink"
-          href="https://github.com/heth-iv"
+          href="https://github.com/h3th-iv"
           target="_blank"
         >
           <span className="linkLines"></span>
@@ -30,7 +30,7 @@ function Links() {
         </a>
         <a
           className="bodyNavLink"
-          href="https://www.linkedin.com/in/titilope-chisom-onifade-7372681b2/"
+          href="https://www.linkedin.com/in/samuel-bonu-371726202/"
           target="_blank"
         >
           <span className="linkLines"></span>
@@ -38,7 +38,7 @@ function Links() {
         </a>
         <a
           className="bodyNavLink"
-          href="https://drive.google.com/file/d/109GMQW6yNiwo6abkhgwKCJz-5KLQxtJM/view?usp=sharing"
+          href="https://drive.google.com/file/d/15MAsqz6pWMrJf8cn9aBIh3MEcLUXXqb6/view?usp=sharing"
           target="_blank"
         >
           <span className="linkLines"></span>
@@ -46,7 +46,7 @@ function Links() {
         </a>
         <a
           className="bodyNavLink"
-          href="mailto:titilopechisom20@gmail.com"
+          href="mailto:samuelbonux10@gmail.com"
           target="_blank"
         >
           <span className="linkLines"></span>

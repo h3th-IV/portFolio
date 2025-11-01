@@ -102,7 +102,7 @@ function Projects() {
           </div>
           <div className="projects__cardWrapper">
             <div>
-              <h1>Invoicer Demo App</h1>
+              <h1>Invoicer</h1>
               <p>A comprehensive invoicing system with AI-powered insights, built with Node.js, React, MongoDB, and OpenAI integration. Features invoice management, client tracking, inventory control, and intelligent business analytics.</p>
             </div>
             <a href="https://github.com/h3th-IV/invoicer-demo_app" target="_blank" rel="noreferrer">
@@ -232,7 +232,7 @@ function Projects() {
           </div> */}
         </div>
         
-        <div className="projects__urlsSection">
+        {/* <div className="projects__urlsSection">
           <h2 className="projects__urlsHeader">Notable Project URLs</h2>
           <p className="projects__urlsDescription">
             Add URLs for your notable backend projects:
@@ -272,7 +272,7 @@ function Projects() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer navValue={navValue} />
     </div>
