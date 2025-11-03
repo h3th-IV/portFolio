@@ -1,0 +1,70 @@
+Backend Engineer experienced in building scalable RESTful APIs and microservices. Achieved a 40% improvement in server response
+times and a 35% boost in data retrieval using Go, Node.js, and cloud technologies. Passionate about writing efficient, testable code and
+eager to leverage strong backend development skills in a fast-paced startup environment.
+SKILLS
+• Programming Languages: Golang, Python, NodeJS/TS
+• Frameworks & Libraries: GorillaMux, Gin, ExpressJs, gRPC
+• Cloud & DevOps: AWS, GCP, Azure, Docker, Kubernetes, Jenkins, CircleCI, Travis CI, Terraform, Ansible, Pulumi, Prometheus,
+Grafana, ELK stack
+• Databases: PostgreSQL, MySQL, MongoDB
+• Software Development Practices: Agile Software Development, TDD, BDD, CI/CD, Git, GitHub
+• Protocols & Tools: HTTP/HTTPS, REST, GraphQL, WebSockets, gRPC, OAuth, JWT, SSL/TLS, Swagger / OpenAPI, Postman
+• Specializations: Microservices Architecture, Cloud-Native Development, Data Engineering, Distributed Systems, DevSecOps, API
+Design and Management, Backend Development, Data Structures, Algorithms
+• Professional Traits: Curiosity, Passion
+WORK EXPERIENCE
+SwiftWings
+ Jun 2024 - Present
+Backend Engineer
+ Lagos, NG
+• Developed 5+ backend projects using RESTful APIs in Go, NodeJS, and TypeScript with frameworks like Gin and GorillaMux, building
+scalable booking management systems for Flights, Rides, Hotels, and Travel.
+• Enhanced system scalability and efficiency by migrating from HTTP/2 to HTTP/3 and integrating gRPC with load balancing, reducing
+server response times by 40%.
+• Designed microservices leveraging AWS S3, MongoDB, and SQL for data management, improving data retrieval times by 35%.
+• Implemented Go templates for internal service front-end components and mailers, increasing development efficiency by 20%.
+• Optimized CI/CD pipelines for Go and Kafka applications using Docker, Terraform, and GitHub Actions, accelerating deployment by
+50%.
+• Boosted service stability and accuracy to 95% through rigorous unit and integration testing.
+• Strengthened AWS system reliability by 30% through effective debugging and tracing techniques.
+• Automated AWS cloud resource deployments with Terraform, reducing deployment times by 30% and improving operational efficiency
+by 20%.
+• Led the development of a geospatial analysis platform using PostgreSQL (via PostGIS) and Mapbox, reducing data processing times
+by 50%.
+• Accelerated processing speeds by 25% through efficient use of Go routines, ensuring seamless data movement across microservices.
+• Reduced issue resolution times by 40% by implementing log aggregation with the ELK stack and utilizing corrective action tools.
+• Enhanced service stability by implementing automated unit and integration testing frameworks (Testify, Ginkgo), cutting manual testing
+efforts by 70%.
+• Acquired practical expertise in container orchestration using Kubernetes.
+Skooleo
+ Feb 2023 - Dec 2023
+Software Engineer
+ Lagos, NG
+• Collaborated with a 5-member Agile team to develop 5 web and mobile backend applications, successfully deploying 3 projects.
+• Engineered 70% of web and mobile application backends using RESTful APIs with Go (Gin, Gorilla) and Python (Django, Flask,
+FastAPI), ensuring clean, efficient, and testable code.
+• Built a robust web application using Scala and Play Framework, enhancing team efficiency and reducing development time by 20%.
+• Designed an interactive mapping application with Leaflet and PostGIS to improve spatial data visualization and reduce analysis time
+by 30%.
+• Developed real-time data pipelines with Kafka and monitored system performance using Prometheus and Grafana.
+• Implemented and optimized SQL (PostgreSQL) and NoSQL (Cassandra, MongoDB) databases, achieving a 30% improvement in query
+efficiency.
+• Contributed to the development of portal sites, platforms, and e-Commerce sites using the MERN stack and Beego, effectively handling
+up to 10 million concurrent users.
+• Enhanced backend performance by 30% through strategic use of Go routines and effective concurrency management.
+• Adopted Kanban and Scrum practices to improve project completion rates by 20%.
+Phliptech Labs
+Software Engineer
+• Designed Architecture and Integrated systems for Finance and Loan providers using Nodejs
+Jun 2023 - May 2024
+Lagos, NG
+• Built a matching algorithm for realtime provision of loan products to customers based of credit reports
+• Built an HR system in Go for startup financial services providers, enhancing staff and customer relations satisfaction by 40%
+• Co-implemented multi-payment gateway (Flutterwave, Google pay, Applepay, Quicktell, USSD, stripe) using Golang and the SDKs
+of the platforms listed as above
+• Collaborated with frontend developers to integrate back-end REST services, improving application performance and user experience
+• Conducted code reviews and maintained code quality and documentation, ensuring consistent and reliable software development
+practices
+EDUCATION
+Lagos University
+Bachelor of Science, Computer Science
